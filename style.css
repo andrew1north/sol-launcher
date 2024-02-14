@@ -3,14 +3,27 @@ body, html {
     margin: 0;
     display: flex;
     background: linear-gradient(to bottom, #1b1c55, #231b7f, #771e98, #fc5450);
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
 }
 
 .title-text {
     /* This text is centered both horizontally and vertically */
-    font-size: 36px;
+    font-size: 72px;
     position: relative;
     margin: 20px;
     color: white;
+}
+
+.logo {
+  margin-right: 14px;
+  max-height: 5em;
+  width: auto;
 }
 
 .top-right-text {

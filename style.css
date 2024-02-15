@@ -30,6 +30,26 @@ a {
   color: white;
 }
 
+.title-text {
+  font-size: 4.3rem;
+  color: white;
+  width: 624px;
+  min-width: 400px;
+
+}
+
+@media only screen and (max-width: 1000px){
+  .title-text{
+    font-size: 2.5rem;
+  }
+  .top-right-text{
+    font-size: 1rem;
+  }
+  .title-text{
+    width: 400px;
+  }
+
+}
 .center-container {
     display: flex;
     align-items: center;
@@ -42,14 +62,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-
-.title-text {
-    font-size: 4.3rem;
-    color: white;
-    width: 624px;
-    min-width: 614px;
 }
 
 .logo {

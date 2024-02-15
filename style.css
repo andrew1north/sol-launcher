@@ -1,9 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body, html {
     height: 100%;
-    margin: 0;
-    display: flex;
     background: linear-gradient(to bottom, #1b1c55, #231b7f, #771e98, #fc5450);
-    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     
 }
 
 a { 
@@ -11,47 +19,55 @@ a {
 }
 
 .top-right-text {
-  position: absolute;
-  font-size: 28px;
-  top: 0;
-  right: 0;
-  margin: 20px;
-  color: white
+  align-self: flex-end;
+  text-align: right;
+  font-size: 1.5rem;
+  width: 15rem;
+  justify-content: right;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: white;
 }
 
-.header {
+.center-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    text-align: center;
-    height: 100vh;
-    width: 100 vw;
+    flex: auto;
+}
+
+.logo-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .title-text {
-    font-size: 72px;
-    position: relative;
-    margin: 20px;
+    font-size: 4.3rem;
     color: white;
-    text-decoration: none;
+    width: 624px;
+    min-width: 614px;
 }
 
 .logo {
-  margin-right: 14px;
-  margin-left: 20px;
+  margin-right: 20px;
   max-height: 5em;
   width: auto;
-  text-decoration: none;
+}
+
+.bottom-logo {
+  display: flex;
+  justify-content: center;
 }
 
 .xlogo {
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  justify-content: center;
-  margin-top: 20px;
-  max-width: 40px;
+  max-width: 3rem;
+  width: 3rem;
+  height: auto;
+  margin-bottom: 200%;
 }
 
 .poppins-thin {

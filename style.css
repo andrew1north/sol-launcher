@@ -38,10 +38,12 @@ a {
 
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 760px){
   .title-text{
-    font-size: 1.5rem;
+    font-size: 2.4rem;
+    text-align: left;
   }
+
   .top-right-text{
     font-size: 1rem;
   }
@@ -49,7 +51,7 @@ a {
     width: 200px;
   }
   .logo{
-    height: 1.5rem;
+    height: auto;
     width: auto;
     margin-right: 10px;
   }

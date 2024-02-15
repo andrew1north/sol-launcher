@@ -31,10 +31,11 @@ a {
 }
 
 .title-text {
+  border: thick solid black;
   font-size: 4.3rem;
   color: white;
   width: 624px;
-  min-width: 400px;
+  min-width: 100px;
 
 }
 

@@ -40,13 +40,16 @@ a {
 
 @media only screen and (max-width: 1000px){
   .title-text{
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .top-right-text{
     font-size: 1rem;
   }
   .title-text{
     width: 400px;
+  }
+  .logo{
+    max-height: 3rem;
   }
 
 }
@@ -66,7 +69,7 @@ a {
 
 .logo {
   margin-right: 20px;
-  max-height: 5em;
+  max-height: 5rem;
   width: auto;
 }
 
